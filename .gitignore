@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hugging Face local cache (prevents uploading gigabytes of model weights to GitHub!)
+.cache/
+huggingface/
+
+# Streamlit config / secrets
+.streamlit/
